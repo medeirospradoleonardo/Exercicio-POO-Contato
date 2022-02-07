@@ -3,7 +3,7 @@ import java.util.ArrayList;
 public class Main {
 
     public static void main(String[] args){
-        ArrayList<Contato> Contatos = new ArrayList();
+        ArrayList<Contato> Contatos = new ArrayList<Contato>();
 
         Contato contato1 = new Contato();
         contato1.setNome("Leonardo Medeiros Prado");
